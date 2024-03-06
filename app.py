@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return '<html>
+  return """<html>
 <head>
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
@@ -247,7 +247,7 @@ function w3_close() {
 </script>
 
 </body>
-</html>'
+</html>"""
 
 app.run(host='0.0.0.0', port=8000)
 
