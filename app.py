@@ -5,8 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
   message = "Hello, World"
-  return 
-  html_code = """
+html_code = """
 <html>
 <head>
 <title>W3.CSS Template</title>
