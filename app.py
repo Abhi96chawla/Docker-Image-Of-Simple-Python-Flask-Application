@@ -5,7 +5,8 @@ app = Flask(__name__)
 @app.route('/')
 def index():
   message = "Hello, World"
-  return "<!DOCTYPE html>
+  return 
+  html_code = """
 <html>
 <head>
 <title>W3.CSS Template</title>
@@ -249,7 +250,9 @@ function w3_close() {
 </script>
 
 </body>
-</html"
+</html
+"""
+return html_code
 
 app.run(host='0.0.0.0', port=8000)
 
